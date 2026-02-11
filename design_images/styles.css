@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+}
+.section-one{
+    background-color: #1f2937;
+    padding: 20px 150px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.header .logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.placeholder .text .main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin:0 0 10px 0;
+}
+
+.placeholder{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.placeholder .text{
+    max-width: 450px;
+}
+.placeholder .text .secondary{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+
+}
+
+.placeholder .sign-up{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    display: flex;
+    padding: 10px 20px;
+    border:none;
+}
+
+.placeholder .image{
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+  color: #E5E7EB;
+}
+
+.section-two .main-text{
+    text-align: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    padding: 30px 0 30px 0;
+}
+
+.section-two .container{
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    margin:auto;
+}
+
+.section-two .container .info .image{
+    border:4px solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+    height: 150px;
+}
+
+.section-two .container .info{
+    max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
