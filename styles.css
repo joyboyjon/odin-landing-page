@@ -60,6 +60,11 @@ body{
     display: flex;
     padding: 10px 20px;
     border:none;
+    transition: transform 0.1s ease;
+}
+
+.placeholder .sign-up:active{
+    transform: translateY(2px) translateX(2px);
 }
 
 .placeholder .image{
@@ -137,4 +142,58 @@ a:active {
     margin-left: auto;
     font-size: 24px;
     padding-right: 540px;
+}
+
+.section-four{
+    display: flex;
+    flex:1;
+    padding: 80px 50px 80px 50px;
+    justify-content: center;
+}
+
+.section-four .container{
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 100px;
+}
+
+.section-four .container .text .main{
+    font-size: 22px;
+    font-weight: 400;
+    color: #e5e7eb;
+}
+
+.section-four .container .text .secondary{
+    font-size: 14px;
+    font-weight: 400;
+    color: #e5e7eb;
+}
+
+.section-four .container .sign-up{
+    border-radius: 8px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+    padding: 3px 25px 3px 25px;
+    transition: transform 0.1s ease;
+}
+
+.section-four .container .sign-up:active{
+    transform:translateX(2px) translateY(2px);
+}
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color:#e5e7eb;
 }
